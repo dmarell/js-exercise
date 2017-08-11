@@ -1,9 +1,8 @@
 const LinkedList = require('../lib/linked-list')
 const should = require('should');
-const test = require('unit.js');
 
 describe("Linked list", () => {
-  it('Append one element', function (done) {
+  it('Append one element', done => {
     const list = new LinkedList();
     list.length().should.be.exactly(0);
     list.append('value')
@@ -11,7 +10,7 @@ describe("Linked list", () => {
     done();
   });
 
-  it('Iterate list', function (done) {
+  it('Iterate list', done => {
     const list = new LinkedList();
     list.append('v1')
     list.append('v2')
