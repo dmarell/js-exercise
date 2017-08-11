@@ -1,12 +1,12 @@
 {
-  "name": "linked-list-exercise",
+  "name": "js-exercise",
   "version": "0.0.1",
   "scripts": {
     "test": "mocha test/**/ --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmarell/linked-list-exercise.git"
+    "url": "git+https://github.com/dmarell/js-exercise.git"
   },
   "author": "Daniel Marell",
   "license": "ISC",
